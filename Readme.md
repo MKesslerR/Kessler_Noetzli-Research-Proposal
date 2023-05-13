@@ -12,9 +12,13 @@ Analysis Geo 880**
 
 ## Abstract 
 <!-- (50-60 words) -->
+The project is aiming to analyze our walking patterns. As dog owners, we are interested to investigate how the walking patterns differ between recreational dog walks and commuting walks. We intend to describe spacial and temporal patterns of our walks and will analyze whether the lenght of the dog walks is affected by the weather or time of the day.
 
 ## Research Questions
 <!-- (50-60 words) -->
+•	How do recreational dog walks differ from commute walks?
+•	Are recreational dog walks influenced by weather (precipitation), i.e is the distance affected by precipitation?
+•	How do the recreational dog walking patterns differ temporally? How do the patterns differ between morning-/afternoon-/evening walks?
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
