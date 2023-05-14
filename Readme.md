@@ -12,13 +12,10 @@ Analysis Geo 880**
 
 ## Abstract 
 <!-- (50-60 words) -->
-The project aims to analyze our walking patterns as dog owners. We are interested in investigating how the walking patterns differ between recreational dog walks and commuting walks. We will use our GPS data to evaluate our movement patterns in terms of behavior, distance covered, weather, duration, speed, and the matrix.
-
-The project aims to analyze our walking patterns as dog owners. We are interested in investigating how the walking patterns differ between recreational- and functional-dog walks (the minimal requirement for the dog’s well-being). We will use our GPS data to evaluate our movement patterns in terms of behavior, distance covered, weather, duration, speed, and the matrix. 
+The project aims to analyze our walking patterns as dog owners. We are interested in investigating how the walking patterns differ between recreational- and functional-dog walks (the minimal requirement for the dog’s well-being). We will use our GPS data to evaluate our movement patterns in terms of behavior, distance covered, weather, duration, speed, and land use type. 
 
 ## Research Questions
 <!-- (50-60 words) -->
-•	How do recreational dog walks differ from commute walks?
 •	How do recreational dog-walks differ from functional-dog walks?
 •	Are functional dog walks more similar than recreational dog walks?
 •	Are recreational dog walks influenced by weather (precipitation), i.e is the distance affected by precipitation?
@@ -26,17 +23,16 @@ The project aims to analyze our walking patterns as dog owners. We are intereste
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
-•	Prediction 1: Recreational walks are separated from commute walks in terms of movement patterns, distance, duration, speed, and land use in the surroundings/proximity to green spaces. 
-•	Prediction 2: Functional dog walks take place in very proximity to the house, and have a shorter duration, higher pace, and cover a shorter distance. Recreational dog walks take place at further distances from the house and have a longer duration, shorter pace, and longer duration.  
-•	Prediction 3: On rainy days the dog walks tend to be shorter in duration, cover a shorter distance, and have a higher pace. On non-rainy days dog walks tend to last longer, cover a longer distance, and have a slower pace. 
-•	Prediction 4: Morning walks are longer than afternoon and evening. 
+•	Prediction 1: Functional dog walks take place in very proximity to the house, and have a shorter duration, higher pace, and cover a shorter distance. Recreational dog walks take place at further distances from the house and have a longer duration, shorter pace, and longer duration.  
+•	Prediction 2: On rainy days the dog walks tend to be shorter in duration, cover a shorter distance, and have a higher pace. On non-rainy days dog walks tend to last longer, cover a longer distance, and have a slower pace. 
+•	Prediction 3: Morning walks are longer than afternoon and evening walks. 
 
 ## Data
-<!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
-GPS locations of two dog owners between April-June 2023. 
-Local weather (mostly precipitation yes/no)
-Land use data
-Road and trail network data
+<!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? ->
+GPS locations of two dog owners between April-June 2023 (Data available from Posmo). 
+Local weather (mostly precipitation yes/no) --> not sure where to get this data from
+Land use data (GIS Portal Kanton Zürich?)
+Road and trail network data- (swissTLM3D)
 Digital terrain model (Slope) Maybe?
 
 ## Analytical concepts
@@ -52,7 +48,6 @@ Semantic level of interest: Fix, move, segment, weather, land-use cover (green/n
 • Raster: DTM 
 The movement patterns of the dog walks will be classified into axial routes, radial routes, partial loops, and full loops according to Jamhawi et al. 2023. 
 
-
 ## R concepts
 <!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
 Pre-processing: 
@@ -66,7 +61,7 @@ Pre-processing:
 •	Visualization of individual trajectories to assign movement behavior. 
 
 Analysis:
-•	Calculate similarity measures among functional dog walks /  recreational dog walks. 
+•	Calculate similarity measures among functional dog walks (we will define a threshold distance for definition, probably <30min)/  recreational dog walks. 
 •	Evaluate differences in speed, distance covered, duration between functional and recreational dog walks, and between walks in good vs bad weather. 
 
 R-Packages
@@ -79,6 +74,9 @@ R-Packages
 <!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
 Small trails used for dog walks may not be digitally available. 
 GPS locations within the forest may not be accurate.
+Weather data might not be available. If not, then we would focus on our other research questions-
 
 ## Questions? 
 <!-- Which questions would you like to discuss at the coaching session? -->
+Where could we get the weather data from?
+Should we look at the type of land use and the digital terrain model?
