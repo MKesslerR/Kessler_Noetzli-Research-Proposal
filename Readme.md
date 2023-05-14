@@ -16,7 +16,6 @@ The project aims to analyze our walking patterns as dog owners. We are intereste
 
 The project aims to analyze our walking patterns as dog owners. We are interested in investigating how the walking patterns differ between recreational- and functional-dog walks (the minimal requirement for the dog’s well-being). We will use our GPS data to evaluate our movement patterns in terms of behavior, distance covered, weather, duration, speed, and the matrix. 
 
-
 ## Research Questions
 <!-- (50-60 words) -->
 •	How do recreational dog walks differ from commute walks?
@@ -31,6 +30,7 @@ The project aims to analyze our walking patterns as dog owners. We are intereste
 •	Prediction 2: Functional dog walks take place in very proximity to the house, and have a shorter duration, higher pace, and cover a shorter distance. Recreational dog walks take place at further distances from the house and have a longer duration, shorter pace, and longer duration.  
 •	Prediction 3: On rainy days the dog walks tend to be shorter in duration, cover a shorter distance, and have a higher pace. On non-rainy days dog walks tend to last longer, cover a longer distance, and have a slower pace. 
 •	Prediction 4: Morning walks are longer than afternoon and evening. 
+
 ## Data
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
 GPS locations of two dog owners between April-June 2023. 
@@ -73,10 +73,12 @@ R-Packages
 •	sf
 •	tidyverse (readr, inner-join, filter, select, mutate)
 •	similaritymeasures
+•	ggplot2
+
 ## Risk analysis
 <!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
 Small trails used for dog walks may not be digitally available. 
-GPS locations with the forest may not be accurate.
+GPS locations within the forest may not be accurate.
 
 ## Questions? 
 <!-- Which questions would you like to discuss at the coaching session? -->
