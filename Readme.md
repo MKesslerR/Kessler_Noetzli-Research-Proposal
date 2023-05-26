@@ -5,7 +5,7 @@ Analysis Geo 880**
 
 | Semester:      | FS23                                     |
 |:---------------|:---------------------------------------- |
-| **Data:**      | GPS locations-walking  |
+| **Data:**      | Posmo - GPS locations- walking  mode|
 | **Title:**     | Differences in walking patterns between functional- and recreational dog walks                |
 | **Student 1:** | Margarita Kessler                        |
 | **Student 2:** | Mirjam Nötzli                        |
